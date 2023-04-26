@@ -8,7 +8,7 @@ import { Analytics } from '@vercel/analytics/react';
 const kaisei = localFont({
   src: '../public/fonts/ShareTechMono-Regular.ttf',
   weight: '700',
-  variable: '--font-kaisei',
+  variable: '',
   display: 'swap',
 });
 
