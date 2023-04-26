@@ -15,10 +15,34 @@ const projects: Project[] = [
     link: 'https://dpto.la',
   },
   {
-    title: 'Project 2',
-    description: 'Description for Project 2',
+    title: 'CVVE MUSIC',
+    description: 'Description for Project ',
     thumbnail: 'path/to/project2-thumbnail.jpg',
-    link: 'https://example.com/project2',
+    link: 'https://cvvemusic.com',
+  },
+  {
+    title: 'SECOND / LAYER',
+    description: 'Description for Project ',
+    thumbnail: 'path/to/project2-thumbnail.jpg',
+    link: 'https://example.com/project',
+  },
+  {
+    title: 'Project',
+    description: 'Description for Project ',
+    thumbnail: 'path/to/project2-thumbnail.jpg',
+    link: 'https://example.com/project',
+  },
+  {
+    title: 'Project ',
+    description: 'Description for Project ',
+    thumbnail: 'path/to/project2-thumbnail.jpg',
+    link: 'https://example.com/project',
+  },
+  {
+    title: 'Project ',
+    description: 'Description for Project ',
+    thumbnail: 'path/to/project2-thumbnail.jpg',
+    link: 'https://example.com/project',
   },
   // Add more projects here
 ];

@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     default: 'Jameson Taylor Wells',
     template: '%s | Jameson Taylor Wells',
   },
-  description: 'Developer, writer, and creator.',
+  description: 'Developer & Technology Consultant.',
   openGraph: {
     title: 'Jameson Taylor Wells',
-    description: 'Developer, writer, and creator.',
+    description: 'Developer, Technology Consultant.',
     url: 'https://jtaylor.info',
     siteName: 'Jameson Taylor Wells',
     images: [
@@ -67,7 +67,7 @@ export default function RootLayout({
       lang="en"
       className={clsx(
         'text-black bg-white dark:text-white dark:bg-[#111010]',
-        kaisei.variable
+        
       )}
     >
       <body className="antialiased max-w-4xl mb-40 flex flex-col md:flex-row mx-4 mt-8 md:mt-20 lg:mt-32 lg:mx-auto">
