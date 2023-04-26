@@ -9,10 +9,10 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'Project 1',
-    description: 'Description for Project 1',
-    thumbnail: 'path/to/project1-thumbnail.jpg',
-    link: 'https://example.com/project1',
+    title: 'DEPARTAMENTO',
+    description: 'From 2017 Until xxxx I was the senior Technical Lead for dpto.la',
+    thumbnail: './public/departamento.jpg',
+    link: 'https://dpto.la',
   },
   {
     title: 'Project 2',
