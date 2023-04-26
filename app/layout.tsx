@@ -6,7 +6,7 @@ import Sidebar from '../components/sidebar';
 import { Analytics } from '@vercel/analytics/react';
 
 const kaisei = localFont({
-  src: '../public/fonts/kaisei-tokumin-latin-700-normal.woff2',
+  src: '../public/fonts/ShareTechMono-Regular.ttf',
   weight: '700',
   variable: '--font-kaisei',
   display: 'swap',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   description: 'Developer, writer, and creator.',
   openGraph: {
-    title: 'Lee Robinson',
+    title: 'Jameson Taylor Wells',
     description: 'Developer, writer, and creator.',
     url: 'https://jtaylor.info',
     siteName: 'Jameson Taylor Wells',

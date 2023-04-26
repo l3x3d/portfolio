@@ -1,18 +1,22 @@
-import me from '../app/placeholder.jpg';
+import me from '../app/avatar.jpg';
 
-export const name = 'Your Name';
+export const name = 'Jameson Taylor Wells';
 export const avatar = me;
 export const about = () => {
   return (
     <>
-      Hey, I'm a developer who loves Next.js. I work at BigCo or CoolStartup as a Software Engineer.
+      Hi! I'm a Developer & Technology Consultant based in sunny southern california.
     </>
   );
 };
 export const bio = () => {
   return (
     <>
-      When I'm not coding, I'm probably playing video games or watching anime. I also love to travel and explore new places.
+       
+
+With 10 years on the frontlines of Technology + Fashion I have experienced monumental changes in e-commerce, with expertise in the global high fashion market. My focus is building Headless experiences for top clients.
+
+Prior to Corra I was the Technical Lead for Los Angeles based Startup Departamento for 5 years. Where I developed new features & maintained our end to end custom e-commerce platform built on Shopify.
     </>
   );
 };
