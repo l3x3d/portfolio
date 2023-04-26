@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     default: 'Jameson Taylor Wells',
     template: '%s | Jameson Taylor Wells',
   },
-  description: 'Developer & Technology Consultant.',
+  description: 'Technology Consultant & Developer',
   openGraph: {
     title: 'Jameson Taylor Wells',
-    description: 'Developer, Technology Consultant.',
+    description: 'Technology Consultant & Developer',
     url: 'https://jtaylor.info',
     siteName: 'Jameson Taylor Wells',
     images: [

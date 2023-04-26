@@ -11,23 +11,23 @@ const projects: Project[] = [
   {
     title: 'DEPARTAMENTO',
     description: 'From 2017 Until xxxx I was the senior Technical Lead for dpto.la',
-    thumbnail: './public/departamento.jpg',
+    thumbnail: './departamento.jpg',
     link: 'https://dpto.la',
   },
   {
     title: 'CVVE MUSIC',
     description: 'Description for Project ',
-    thumbnail: 'path/to/project2-thumbnail.jpg',
+    thumbnail: './cvve.jpg',
     link: 'https://cvvemusic.com',
   },
   {
     title: 'SECOND / LAYER',
     description: 'Description for Project ',
-    thumbnail: 'path/to/project2-thumbnail.jpg',
-    link: 'https://example.com/project',
+    thumbnail: './sl.jpg',
+    link: 'https://secondlayer.us',
   },
   {
-    title: 'Project',
+    title: 'FALSEZERO',
     description: 'Description for Project ',
     thumbnail: 'path/to/project2-thumbnail.jpg',
     link: 'https://example.com/project',
@@ -39,18 +39,18 @@ const projects: Project[] = [
     link: 'https://example.com/project',
   },
   {
-    title: 'Project ',
+    title: 'ATRIUM NYC (KITH)',
     description: 'Description for Project ',
-    thumbnail: 'path/to/project2-thumbnail.jpg',
+    thumbnail: './atrium.jpg',
     link: 'https://example.com/project',
   },
   // Add more projects here
 ];
 
-const AboutPage: FC = () => {
+const WorkPage: FC = () => {
   return (
     <section>
-      <h1 className="font-bold text-3xl font-serif">Projects and Collaborations</h1>
+      <h1 className="font-bold text-3xl font-serif"> work projects and collaborations</h1>
       <div className="my-5 text-neutral-800 dark:text-neutral-200 grid grid-cols-3 gap-4">
         {projects.map((project, index) => (
           <div key={index} className="project">
@@ -72,4 +72,4 @@ const AboutPage: FC = () => {
   );
 };
 
-export default AboutPage;
+export default WorkPage;
