@@ -14,18 +14,18 @@ const kaisei = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Jameson Taylor Wells',
+    template: '%s | Jameson Taylor Wells',
   },
   description: 'Developer, writer, and creator.',
   openGraph: {
     title: 'Lee Robinson',
     description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
+    url: 'https://jtaylor.info',
+    siteName: 'Jameson Taylor Wells',
     images: [
       {
-        url: 'https://leerob.io/og.jpg',
+        url: '/app/avatar.jpg',
         width: 1920,
         height: 1080,
       },
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Lee Robinson',
+    title: 'Jameson Taylor Wells',
     card: 'summary_large_image',
   },
   icons: {
