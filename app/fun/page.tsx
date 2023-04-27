@@ -15,6 +15,7 @@ const projects: Project[] = [
     thumbnail: './hardgroove.jpg',
     link: 'https://hardgoove.framer.website/',
   },
+  /*
   {
     title: '',
     description: 'Description for Project ',
@@ -34,7 +35,7 @@ const projects: Project[] = [
     link: '',
   },
   {
-    title: 'Project ',
+    title: ' ',
     description: 'Description for Project ',
     thumbnail: '',
     link: '',
@@ -45,6 +46,7 @@ const projects: Project[] = [
     thumbnail: '',
     link: '',
   },
+  */
   // Add more projects here
 ];
 

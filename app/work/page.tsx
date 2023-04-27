@@ -30,14 +30,8 @@ const projects: Project[] = [
   {
     title: 'FALSEZERO',
     description: 'Description for Project ',
-    thumbnail: './false-zero-logos_transparent.jpg',
-    link: 'https://example.com/project',
-  },
-  {
-    title: 'Project ',
-    description: 'Description for Project ',
-    thumbnail: 'path/to/project2-thumbnail.jpg',
-    link: 'https://example.com/project',
+    thumbnail: './falsezero-neon.jpg',
+    link: 'https://falsezero.io',
   },
   {
     title: 'ATRIUM NYC (KITH)',
@@ -46,6 +40,14 @@ const projects: Project[] = [
     link: 'https://example.com/project',
   },
   // Add more projects here
+  /* 
+  {
+    title: '',
+    description: 'Description for Project ',
+    thumbnail: '',
+    link: '',
+  },
+  */
 ];
 
 const WorkPage: FC = () => {

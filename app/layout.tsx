@@ -5,7 +5,7 @@ import localFont from 'next/font/local';
 import Sidebar from '../components/sidebar';
 import { Analytics } from '@vercel/analytics/react';
 
-const kaisei = localFont({
+const shareTech = localFont({
   src: '../public/fonts/ShareTechMono-Regular.ttf',
   weight: '700',
   variable: '',
@@ -19,10 +19,10 @@ export const metadata: Metadata = {
   },
   description: 'Technology Consultant & Developer',
   openGraph: {
-    title: 'Jameson Taylor Wells',
+    title: 'Jameson Taylor',
     description: 'Technology Consultant & Developer',
     url: 'https://jtaylor.info',
-    siteName: 'Jameson Taylor Wells',
+    siteName: 'Jameson Taylor',
     images: [
       {
         url: '/app/avatar.jpg',
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Jameson Taylor Wells',
+    title: 'Jameson Taylor',
     card: 'summary_large_image',
   },
   icons: {
