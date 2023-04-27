@@ -9,18 +9,23 @@ const navItems = {
   '/': {
     name: 'home',
   },
-  '/about': {
+  '/work': {
     name: 'work',
   },
   '/fun': {
     name: 'fun',
   },
+  '/contact': {
+    name: 'contact',
+  },
+  /*
   '/blog': {
     name: 'blog',
   },
   '/guestbook': {
     name: 'guestbook',
   },
+  */
 };
 
 function Logo() {

@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import { motion } from "framer-motion"
 
 interface Project {
   title: string;
@@ -29,7 +30,7 @@ const projects: Project[] = [
   {
     title: 'FALSEZERO',
     description: 'Description for Project ',
-    thumbnail: 'path/to/project2-thumbnail.jpg',
+    thumbnail: './false-zero-logos_transparent.jpg',
     link: 'https://example.com/project',
   },
   {
